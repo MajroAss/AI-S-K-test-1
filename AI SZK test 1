@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Image Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Free Image Generator</h1>
+    <p>Create stunning AI-generated images for free!</p>
+  </header>
+  <main>
+    <form id="image-form">
+      <label for="prompt">Enter your image description:</label>
+      <input type="text" id="prompt" name="prompt" placeholder="e.g., A futuristic city at sunset" required>
+      <button type="submit">Generate Image</button>
+    </form>
+    <section id="output">
+      <h2>Generated Image</h2>
+      <div id="image-container">
+        <p>Your image will appear here.</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2024 Free Image Generator</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
